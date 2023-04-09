@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { createContext, useState } from 'react';
 import Header from '../Header/Header';
 import { useLoaderData } from 'react-router-dom';
 import Countries from '../Countrys/Countries';
@@ -27,6 +27,7 @@ const Home = () => {
     }
     return (
         <div className='cart-container'>
+            
             <div className='carts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
             {
                 countries.map(country=><Countries handleToAddName={handleToAddName} country={country} key={country.cca3}></Countries>)

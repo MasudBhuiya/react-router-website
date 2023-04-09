@@ -8,9 +8,9 @@ import {
 } from "react-router-dom";
 import Home from './component/Home/Home';
 import Main from './component/Main/Main';
-import Details from './component/Countrys/CountryDetails/Details';
 import About from './component/About/About';
 import Login from './component/Login/Login';
+import Details from './component/CountryDetails/Details';
 
 const router = createBrowserRouter([
   {

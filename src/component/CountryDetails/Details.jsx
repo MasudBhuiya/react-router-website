@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Counrty from '../../Counrty/Counrty';
+import Counrty from '../Counrty/Counrty';
 
 const Details = () => {
     const loader = useLoaderData();

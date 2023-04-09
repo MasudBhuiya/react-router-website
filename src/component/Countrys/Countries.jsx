@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Countries.css'
 import { Link } from 'react-router-dom';
 
